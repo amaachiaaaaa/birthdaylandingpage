@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#header_bg {
+    background-image: url("../images/header\ bg\ 1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+#header-text {
+    color: black;
+    font-size: 45px;
+    padding-top: 23rem;
+    margin-left: 2rem;
+
+}
+
+.about-section {
+    display: flex;
+    gap: 2rem;
+    background-color: beige;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.about-text {
+    width: 80%;
+    max-height: 100%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2rem;
+    height: 20%;
+}
+
+.about-text h5 {
+    color: rgba(255, 0, 0, 0.582);
+    font-size: 30px;
+}
+
+.about-text h1 {
+    font-size: 2rem;
+}
+
+.images img {
+    width: 65%;
+}
+
+
+
+.serve-section {
+    margin: 4rem 10rem;
+}
+
+.serve-images {
+    display: flex;
+    gap: 30px;
+}
+
+.images {
+    width: 50%;
+
+}
+
+.image img {
+    width: 100%;
+}
+
+.serve-text {
+    padding-bottom: 2rem;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.serve-text h4 {
+    color: red;
+    font-size: 30px;
+
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Content Placeholder */
+.content {
+    flex: 1;
+}
+
+/* Footer Styling */
+.birthday-footer {
+    background: #ffcccb;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #333;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content h2 {
+    font-size: 2em;
+    color: #ff6b6b;
+    margin-bottom: 15px;
+}
+
+.footer-content p {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.celebrate-button {
+    padding: 10px 18px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.celebrate-button:hover {
+    background-color: #ff8a8a;
+}
+
+/* Balloons */
+.balloons {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: -40px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.balloon {
+    width: 50px;
+    height: 70px;
+    background-color: #ff6b6b;
+    border-radius: 50%;
+    position: relative;
+    animation: float 5s ease-in-out infinite;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.balloon1 {
+    background-color: #ff6b6b;
+    animation-delay: 0s;
+}
+
+.balloon2 {
+    background-color: #ffcc5c;
+    margin: 0 30px;
+    animation-delay: 1s;
+}
+
+.balloon3 {
+    background-color: #5d9cec;
+    animation-delay: 2s;
+}
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
